@@ -1,0 +1,39 @@
+
+.Button {
+    align-items: center;
+    box-shadow: 1px 1px 1px #333;
+    /* background: #f1a33c; */
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    height: 50px;
+   max-width: 50px;
+  }
+  .Button:active {
+    font-size: 20px;
+
+       background-color:transparent; 
+       box-shadow: 2px 2px 5px #333;
+       /* transition: all 0.3s; */
+       height: 49px;
+       max-width: 49px;
+  }
+  .Button.zero {
+    width: 30px;
+    text-align: center;
+    grid-column: 1 / span 2;
+    border-radius: 57.5px;
+   min-width: 104px;
+    justify-content: center;
+    /* padding-right: 103px; */
+  }
+  /* Button.function {
+    color: black;
+    background: #a5a5a5;
+  }
+  Button.operator {
+    color: #f1a33c;
+  } */
